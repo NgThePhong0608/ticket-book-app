@@ -28,32 +28,43 @@ include 'adminheader.php';
 </style>
 
 <html>
+
 <head>
     <link rel='stylesheet' href='index.css'>
     <br><br>
     <h1>
-        <center><b> Admins Data Base <img src="https://img.icons8.com/clouds/100/000000/lock-database-.png"/></center>
-        </b></h1>
+        <center><b> Admins Data Base <img src="https://img.icons8.com/clouds/100/000000/lock-database-.png" /></center>
+        </b>
+    </h1>
 
     <div class="container">
-
-        <td><a href='admintraindb.php'>
-                <button style="background-color: black ; border-color:black ">View Train Bookings</button>
-            </a></td>
+        <tr>
+            <td><a href='admintraindb.php'>
+                    <button style="background-color: black ; border-color:black ">View Train Bookings</button>
+                </a>
+            </td>
         </tr>
-        <br> <br>
+
+        <br><br>
 
         <tr>
-
             <td><a href='adminbusdb.php'>
                     <button style="background-color: black ; border-color:black  ">View Bus Bookings</button>
                 </a></td>
             </td>
         </tr>
-        </table>
+
+        <br><br>
+        <tr>
+            <td><a href='adminuser.php'>
+                    <button style="background-color: black ; border-color:black  ">View List Users</button>
+                </a></td>
+            </td>
         </tr>
+
     </div>
 
     <?php include 'footer.php';
     ?>
+
 </html>

@@ -47,21 +47,17 @@
       padding: 17px;
       color: black;
       font-weight: 40000;
-
-
     }
   </style>
 </head>
 
 <nav class="navvvvvvbar navvvvvvbar-default navvvvvvbar-fixed-top">
-  <div class="  navvvvvvbar-brand navvvvvvbar-center"><b>&nbsp&nbsp&nbsp<mark>Mh-TICKET</mark></b>
-
-
-
-
+  <div class="navvvvvvbar-brand navvvvvvbar-center">
+    <b>
+      &nbsp&nbsp&nbsp<mark>Ticket Booking System</mark>
+    </b>
+  </div>
 </nav>
-
-</div>
 
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
