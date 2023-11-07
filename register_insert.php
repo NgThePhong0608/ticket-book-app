@@ -18,9 +18,9 @@ $password = $_POST['password'];
 $Gender = $_POST['Gender'];
 $Phone = $_POST['phone'];
 
-$sql_userdatabase="Insert into userdatabase(Name ,Email , Gender, password , dob , Phone) values ('$name' , '$email' , '$Gender', '$password', '$dob', '$Phone')";
+$sql_users="Insert into users(Name ,Email , Gender, password , dob , Phone) values ('$name' , '$email' , '$Gender', '$password', '$dob', '$Phone')";
 
-if(mysqli_query($connect, $sql_userdatabase) == true)
+if(mysqli_query($connect, $sql_users) == true)
 {
 	echo "<center><h1><b>You have been sucessfully registered<b> </h1></center><br><br>";
 	echo '<center><table><tr><td><A href="sindex.php"><button style="background-color:black; border-color:black"><span style="color:white">Sign in ! </span></button></a></td></tr></table></center>';
