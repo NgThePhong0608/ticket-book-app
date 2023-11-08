@@ -35,7 +35,7 @@ CREATE TABLE `admin` (
   `password` varchar(50) NOT NULL,
   `DoB` date NOT NULL,
   `Joined_on` timestamp NOT NULL DEFAULT current_timestamp()
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `admindatabase`
@@ -65,7 +65,7 @@ CREATE TABLE `bustransactions` (
   `pin` int(4) NOT NULL,
   `Date` datetime NOT NULL DEFAULT current_timestamp(),
   `Amt` int(10) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `bustransactions`
@@ -89,7 +89,7 @@ CREATE TABLE `price` (
   `type` varchar(25) NOT NULL,
   `Price` int(50) NOT NULL,
   `Route` varchar(25) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `price`
@@ -2129,7 +2129,7 @@ CREATE TABLE `pricebus` (
   `source` varchar(50) NOT NULL,
   `dest` varchar(50) NOT NULL,
   `Price` int(50) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `pricebus`
@@ -2488,7 +2488,7 @@ CREATE TABLE `traintt` (
   `Nghệ An` varchar(5) DEFAULT NULL,
   `Ninh Bình` varchar(5) DEFAULT NULL,
   `Cần Thơ` varchar(5) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `traintt`
@@ -2553,7 +2553,7 @@ CREATE TABLE `transactions` (
   `Date` datetime NOT NULL DEFAULT current_timestamp(),
   `Amt` int(10) NOT NULL,
   `Route` varchar(25) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `transactions`
@@ -2578,7 +2578,7 @@ CREATE TABLE `users` (
   `DoB` date NOT NULL,
   `Phone` varchar(10) NOT NULL,
   `Joined_on` timestamp NOT NULL DEFAULT current_timestamp()
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `users`
