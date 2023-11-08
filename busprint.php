@@ -1,22 +1,23 @@
+     <?php include "header.php"; ?>
      <h1 align="center"><mark>Ticket Details</h1></mark>
      <br>
 
 
      <style>
-       $black: #343434;
-
        .ticket {
-
          font-family: Montserrat, sans-serif;
+         display: flex;
+         justify-content: center;
+         align-items: center;
        }
 
        .ticketdesign {
          background: linear-gradient(to bottom, #FFC107 0%, #FFC107 19%, #d9d9d9 19%, #d9d9d9 100%);
-         height: 30em;
+         height: 35em;
          float: left;
          object-position: center;
-         padding: 1em;
-         margin-top: 100px;
+         padding: 5px;
+         margin-top: 10px;
 
        }
 
@@ -27,18 +28,13 @@
          border-bottom-left-radius: 8px;
          border-top-right-radius: 8px;
          border-bottom-right-radius: 8px;
-
-
-
-         width: 75em;
+         width: 60%;
        }
 
        h1 {
-         font-size: 40px;
+         font-size: 35px;
          margin-top: 0;
          font-family: Montserrat, sans-serif;
-
-
        }
 
        h2 h3 {
@@ -60,7 +56,7 @@
 
        .printable {
          padding-left:
-           10px;
+           5px;
          text-align: left;
        }
      </style>
@@ -97,30 +93,7 @@
 
      <?php
       }
+      include "footer.php";
       ?>
 
      </div>
-     <br>
-     <br>
-     <br>
-     <br>
-     <br>
-     <br>
-     <br>
-     <br>
-     <br>
-     <br>
-     <br>
-     <br>
-     <br>
-     <br>
-     <br>
-     <br>
-     <br>
-     <br>
-     <br>
-     <br>
-     <br>
-     <br>
-     <br>
-     <br>

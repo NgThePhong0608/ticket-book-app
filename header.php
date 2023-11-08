@@ -1,3 +1,4 @@
+<?php session_start();?>
 <head>
   <title>Ticket Booking System</title>
   <meta charset="utf-8">
@@ -110,12 +111,15 @@
       background-color: red !important;
     }
 
-    body {}
   </style>
 </head>
 
 <nav class="navvvvvvbar navvvvvvbar-default navvvvvvbar-top">
   <div class="  navvvvvvbar-brand navvvvvvbar-center"><b><mark><img src="https://img.icons8.com/dusk/64/000000/bus.png" />Ticket Booking System<img src="https://img.icons8.com/officel/64/000000/tracks-intersection.png" /></mark></b>
+
+
+
+
 </nav>
 <nav class="navbar navbar-default navbar-top">
   <div class="container-fluid">
