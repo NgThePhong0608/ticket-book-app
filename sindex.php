@@ -27,7 +27,7 @@ include 'head2.php';
             <table align="center" class="table">
                 <tr>
                     <td>
-                        <h2><b>Email id: </b></h2>
+                        <h2><b>Email: </b></h2>
                     </td>
                     <td><input type="email" name="email" maxlength='50'></td>
                 </tr>

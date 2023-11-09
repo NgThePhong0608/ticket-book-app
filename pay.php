@@ -43,7 +43,7 @@ if ($_SESSION['log'] == '') {
           <td>
             <h3>Name on Card: </h3>
           </td>
-          <td colspan='2'><input type="Text" name="name" placeholder="Prajwal N. Sutar" maxlength='50'></td>
+          <td colspan='2'><input type="Text" name="name" maxlength='50'></td>
         </tr>
         <tr>
           <td>
@@ -76,8 +76,6 @@ if ($_SESSION['log'] == '') {
     </form>
     <br>
     <br>
-
-
 
   </div>
   <?php include 'footer.php';
