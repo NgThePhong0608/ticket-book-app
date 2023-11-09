@@ -6,8 +6,8 @@ $password = 'password' || '';
 $dbname = 'ticket-booking';
  */
 $hostname  = 'localhost';
-$username = 'root';
-$password =  '';
+$username = 'duongxuanduc';
+$password =  '280920';
 $dbname = 'ticket-booking';
 $connect =  mysqli_connect($hostname, $username, $password, $dbname) or die("Error Connecting");
 mysqli_set_charset($connect, 'UTF8');

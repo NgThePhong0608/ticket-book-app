@@ -84,7 +84,7 @@
 
              <h2 align="left"><span>Bus No : &nbsp <?php echo $row['Bus_No'] ?></span></h2>
              <h2 align="left"><span>No of Passengers :&nbsp <?php echo $row['NoOfpass'] ?> </span></h2>
-             <h2 align="left"><span>Amount : &nbsp ₹<?php echo $row['Amt'] ?> </span></h2>
+             <h2 align="left"><span>Amount : &nbsp <?php echo $row['Amt'] ?>VND </span></h2>
              <h2 align="center"><span>Wish you happy & safe journey</span> </h2>
            </div>
          </div>

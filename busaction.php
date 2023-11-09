@@ -21,7 +21,7 @@ if ($source == $dest) {
     $final = $row["Price"] * $no;
     $busnum = $row["Bus_No."];
 
-    echo "<br><br><br><h1><center>Total fare of bus number <b>" . $busnum . "</b> from <b>" . $source . " to " . $dest . "</b> is  : ₹ <b>" . $final . "</b> </center></h1><br><br>";
+    echo "<br><br><br><h1><center>Total fare of bus number <b>" . $busnum . "</b> from <b>" . $source . " to " . $dest . "</b> is  :  <b>" . $final . "VND</b> </center></h1><br><br>";
     echo '<center>
 <td><form action="buspay.php"><button style="background-color: black; padding: 25px 70px; type="submit"; align=center;"><span style=color:white;><h3>Checkout</h3></span></a></td></button></form><br><br>
 

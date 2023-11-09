@@ -76,7 +76,7 @@ include 'header.php';
 
 				<tr>
 					<th>Amount</th>
-					<td>₹&nbsp&nbsp<?php echo $_SESSION['final'] ?></td>
+					<td>&nbsp&nbsp<?php echo $_SESSION['final'] ?>VND</td>
 				</tr>
 
 				

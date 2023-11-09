@@ -80,7 +80,7 @@
             <h2 align="left"><span>CLASS : &nbsp <?php echo $row['Class'] ?></span></h2>
             <h2 align="left"><span>TYPE : &nbsp <?php echo $row['Type'] ?></span></h2>
             <h2 align="left"><span>NO. OF PASSENGERS :&nbsp <?php echo $row['NoOfpass'] ?> </span></h2>
-            <h2 align="left"><span>AMOUNT : &nbsp ₹<?php echo $row['Amt'] ?> </span></h2>
+            <h2 align="left"><span>AMOUNT : &nbsp <?php echo $row['Amt'] ?>VND</span></h2>
             <h2 align="left"><span>ROUTE : &nbsp <?php echo $row['Route'] ?> </span></h2>
             <h2 align="center"><span>WISH YOU A HAPPY & SAFE JOURNEY</span> </h2>
           </div>

@@ -63,12 +63,12 @@ include 'header.php';
                     die("Kết nối không thành công: " . $connect->connect_error);
                   }
 
-                  $sql = "SELECT DISTINCT source FROM price";
+                  $sql = "SELECT `name` FROM `city`";
                   $result = $connect->query($sql);
 
                   if ($result->num_rows > 0) {
                     while ($row = $result->fetch_assoc()) {
-                      echo "<option>" . $row["source"] . "</option>";
+                      echo "<option>" . $row["name"] . "</option>";
                     }
                   } else {
                     echo "<option>Không có dữ liệu</option>";
@@ -81,12 +81,12 @@ include 'header.php';
                 <label for="inputState">DESTINATION STATION:</label>
                 <select id="inputState" class="form-control" name="dest">
                   <?php
-                  $sql = "SELECT DISTINCT dest FROM price";
+                  $sql = "SELECT `name` FROM `city`";
                   $result = $connect->query($sql);
 
                   if ($result->num_rows > 0) {
                     while ($row = $result->fetch_assoc()) {
-                      echo "<option>" . $row["dest"] . "</option>";
+                      echo "<option>" . $row["name"] . "</option>";
                     }
                   } else {
                     echo "<option>Không có dữ liệu</option>";

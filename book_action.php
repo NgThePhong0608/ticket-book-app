@@ -26,7 +26,7 @@ if ($source == $dest) {
     $final = $row["Price"];
     $Route = $row["Route"];
     $final = $final * $no;
-    echo "  <br><br><br><h1><center>Total <b>" . $class . " Class , " . $type . "</b> Journey type fare from <b>" . $source . " to " . $dest . "</b> is  : ₹ <b>" . $final . "</b> and route via <b>" . $source . " " . $Route . " " . $dest . "</b></center></h1><br><br>";
+    echo "  <br><br><br><h1><center>Total <b>" . $class . " Class , " . $type . "</b> Journey type fare from <b>" . $source . " to " . $dest . "</b> is  :  <b>" . $final . "VND </b> and route via <b>" . $source . " " . $Route . " " . $dest . "</b></center></h1><br><br>";
     echo '<center>
 <td><form action="pay.php"><button style="background-color: black; padding: 25px 70px; type="submit"; align=center;"><span style=color:white;><h3>Checkout</h3></span></a></td></button></form>
 ';
