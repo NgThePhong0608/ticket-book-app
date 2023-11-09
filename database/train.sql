@@ -16514,8 +16514,8 @@ INSERT INTO
     )
 VALUES (
         48,
-        'vydk',
-        'vydk@gmail.com',
+        'MinhTA',
+        'minhta@gmail.com',
         'M',
         '1234',
         '2001-04-11',
@@ -16523,8 +16523,8 @@ VALUES (
         '2021-08-23 15:01:08'
     ), (
         49,
-        'prvydk',
-        'prvydk45@gmail.com',
+        'PhongNT',
+        'phongnt@gmail.com',
         'M',
         '45prvydk',
         '2005-05-06',
@@ -16532,8 +16532,8 @@ VALUES (
         '2021-08-23 15:02:49'
     ), (
         50,
-        'Nikhil',
-        'nikhilm25@gmail.com',
+        'DucDX',
+        'ducdx@gmail.com',
         'M',
         'nikhil126',
         '1999-06-09',
